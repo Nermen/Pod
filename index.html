@@ -43,13 +43,7 @@
             alert('onError!');
         }
         function Button1_onclick() {
-            window.LocalFileSystem.setItem("1", "Nermen");
-            var keyname = window.LocalFileSystem.key(i);
-            var Item = window.LocalFileSystem.getItem("1");
-            window.LocalFileSystem.removeItem("1");
-            Text1.value = keyname;
-            Text2.value = Item;
-            valueX = parseInt(document.getElementById("Text1").value);
+                       valueX = parseInt(document.getElementById("Text1").value);
             valueY = parseInt(document.getElementById("Text2").value);
            Text3.value = valueX + valueY;
 
