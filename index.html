@@ -29,7 +29,7 @@
         // start monitoring the state of the accelerometer
         function startWatch() {
             var options = { frequency: 500 };
-            navigator.accelerometer.watchAcceleration(onSuccess, onError, options);
+            navigator.accelerometer.getCurrentAcceleration(onSuccess, onError, options);
         }
 
         // if the z-axis has moved outside of our sensitivity threshold, move the aarvark's head in the appropriate direction
